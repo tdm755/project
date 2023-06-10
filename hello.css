@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#hello{
+    background-color:#79A7D3 ;
+    height:  2.4375rem;
+    display: flex;
+    
+    align-items:center;
+
+   justify-content: space-evenly;
+    
+}
+
+h1{
+    background-color: #8A307F;  /**Hex codes: Raspberry #8A307F, Blues #79A7D3 #6883BC**/
+    height: 3.75rem;
+    color: #ffff;
+    
+    font-variant: small-caps;
+    word-spacing: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+a{
+    text-decoration: none;
+    
+    
+}
+.nav{
+    width: 240px;
+    height:39px;
+    background-color: #6883BC;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;      
+}
+
+.nav:hover{
+    border: 1px solid #000b15;
+    background-color: #536da5;
+}
+a:active{
+    color: white;
+}
+
+.identity{
+   
+    max-width: 31.875rem; 
+    height: 18.75rem;
+    display: flex;
+    background-color: #536da5;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+   
+    
+
+}
+.biodata{
+    margin: 40px;
+}
+
+.taba{
+    width: 23%;
+    height: 20px;
+    background-color: #536da5;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 15px;
+    
+}
+#row1{
+    margin-top: 60px;
+}
+ 
+.await{
+    margin-top: 80px;
+    border-collapse: collapse;
+    border: none;
+    
+}
+
+.tdata{
+ 
+    width: 23%;
+    height: 20px;
+    background-color: #79A7D3;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 15px;
+    border:3px solid white;
+    font-size: larger;
+    text-align: center;
+    font-weight: 500 ;
+    
+}
+.the{
+    padding: 25px;
+    border: none;
+    background-color: #6883BC;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+b{
+    font-variant: small-caps;
+}
+footer{
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
